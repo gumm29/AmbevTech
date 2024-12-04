@@ -1,12 +1,6 @@
 {
-    "listaUsuario":{
-        "cardTitulo": "Listar Usuários",
-        "cardDescricao": "Funcionalidade de listagem de usuários que estão cadastrados.",
-        "sessao": "Lista dos usuários"
-    },
-    "cadastraUsuario":{
-        "cardTitulo": "Cadastrar Usuários",
-        "cardDescricao": "Funcionalidade de cadastro de usuários para ter acesso ao ecommerce.",
-        "sessao": "Cadastro de usuários"
-    }
+    "nome": "Gustavo Teste",
+    "email": "gustavo@qa.com.br",
+    "password": "teste",
+    "administrador": "true"
 }
