@@ -1,28 +1,43 @@
 # Projeto de QA - AmbevTech
 
-### Ao baixar o projeto, rode o comando para baixar as bibliotecas
+### 1. Baixe o projeto
+### 2. Instale as bibliotecas
+
 ```code
 npm i
 ```
 
-### A divisao entro back e front, no projeto esta separado noas pastas api e pages.
-### Dentro da pasta e2e consta os cenarios de testes.
-### Na pasta fixtures se encontram as massas
-### E na pasta support estao os comando customizados
-### No arquivo cypress.config.js, estao separadas as urls de front e back
+Estrutura do projeto
+- e2e/: Contém os cenários de testes.
+- fixtures/: Contém os dados e massas utilizadas nos testes.
+- support/: Contém os comandos customizados e utilitários para os testes.
+- cypress.config.js: Arquivo de configuração do Cypress, onde as URLs do frontend e backend estão separadas.
 
-### Para rodar o projeto na ide, rode o comando
+## Executando o Projeto
+<hr><br>
+
+### Para rodar os testes na GUI:
+<h5>Execute o comando:
+
 ```code
 npx cypress open
 ```
-### e escolha o teste que deseja rodar.
+<h5>Escolha o teste que deseja rodar na interface do Cypress.
 
-### Ja, com o comando
+<br>
+
+### Para rodar todos os testes:
+<h5>Execute o comando:
+
 ```code
 npx cypress run
-```
-### ira executar todos os testes
+````
+Isso executará todos os testes de forma automática no terminal.
 
-#### Obs: de libs, contem apenas o cypress e a faker para geracao de massa
+<br>
 
+### Dependências:
+<h4>O projeto utiliza as seguintes bibliotecas:
 
+<h5>- Cypress: Para realizar os testes E2E.
+<h5>- Faker: Para gerar massa de teste.
