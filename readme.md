@@ -14,7 +14,6 @@ Estrutura do projeto
 - cypress.config.js: Arquivo de configuração do Cypress, onde as URLs do frontend e backend estão separadas.
 
 ## Executando o Projeto
-<br>
 
 ### Para rodar os testes na GUI:
 <h5>Execute o comando:
@@ -34,7 +33,7 @@ npx cypress run
 ````
 Isso executará todos os testes de forma automática no terminal.
 
-<br>
+
 
 ### Dependências:
 <h4>O projeto utiliza as seguintes bibliotecas:
