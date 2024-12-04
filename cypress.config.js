@@ -1,9 +1,9 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
-  e2e: {
-    setupNodeEvents(on, config) {
-      // implement node event listeners here
-    },
+  e2e: {},
+  env: {
+    frontUrl: 'https://front.serverest.dev',
+    backUrl: 'https://serverest.dev',
   },
 });
